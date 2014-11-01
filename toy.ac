@@ -1,0 +1,35 @@
+/***************************************************************/
+/*  File       : dlx.ac
+ *  Description: Storage modules.                         
+ *  Author     : Nikolaos Kavvadias <nikos@nkavvadias.com>
+ *
+ *  Copyright (C) 2010, 2011, 2012, 2013, 2014 Nikolaos Kavvadias
+ *
+ *  Author affiliation:
+ *    Dr. Nikolaos Kavvadias
+ *    Independent Consultant -- Research Scientist
+ *    Kornarou 12 Rd., Nea Ampliani,
+ *    35100 Lamia, Greece
+ *                                                             
+ *  Contact information for the ArchC team:                     
+ *    The ArchC Team                                              
+ *    Computer Systems Laboratory (LSC)                           
+ *    IC-UNICAMP                                                  
+ *    http://www.lsc.ic.unicamp.br                                
+ */
+/***************************************************************/
+
+
+AC_ARCH(toy)
+{
+  ac_cache    DM:4M;     // data memory
+  ac_regbank  RB:16;     // register bank/file
+  ac_reg      CYC;       // cycle counter
+  ac_wordsize 32;
+
+  ARCH_CTOR(toy) 
+  {
+    ac_isa("toy_isa.ac");
+    set_endian("big");
+  };
+};
