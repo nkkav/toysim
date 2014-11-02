@@ -361,13 +361,18 @@ machine)</td>
 <td><a class="reference external" href="http://www.nkavvadias.com">http://www.nkavvadias.com</a></td>
 </tr>
 <tr><td><strong>Release Date</strong></td>
-<td>30 October 2014</td>
+<td>02 November 2014</td>
 </tr>
 <tr><td><strong>Version</strong></td>
-<td>0.0.2</td>
+<td>0.0.3</td>
 </tr>
 <tr><td><strong>Rev. history</strong></td>
 <td>&nbsp;</td>
+</tr>
+<tr><td><strong>v0.0.3</strong></td>
+<td><p class="first">2014-11-02</p>
+<p class="last">Documentation corrections.</p>
+</td>
 </tr>
 <tr><td><strong>v0.0.2</strong></td>
 <td><p class="first">2014-10-30</p>
@@ -542,53 +547,53 @@ differences of the two syntax variations.</p>
 <tr><td>Original syntax</td>
 <td>ArchC-compatible syntax</td>
 </tr>
-<tr><td>R[d] &lt;- imm8</td>
-<td>lda rd, imm8</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- imm8</tt></td>
+<td><tt class="docutils literal">lda rd, imm8</tt></td>
 </tr>
-<tr><td>R[d] &lt;- mem[imm8]</td>
-<td>ld rd, imm8</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- mem[imm8]</tt></td>
+<td><tt class="docutils literal">ld rd, imm8</tt></td>
 </tr>
-<tr><td>R[d] -&gt; mem[imm8]</td>
-<td>st rd, imm8</td>
+<tr><td><tt class="docutils literal">R[d] <span class="pre">-&gt;</span> mem[imm8]</tt></td>
+<td><tt class="docutils literal">st rd, imm8</tt></td>
 </tr>
-<tr><td>R[d] &lt;- mem[R[t]]</td>
-<td>ldi rd, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- mem[R[t]]</tt></td>
+<td><tt class="docutils literal">ldi rd, rt</tt></td>
 </tr>
-<tr><td>mem[R[t]] &lt;- R[d]</td>
-<td>sti rd, rt</td>
+<tr><td><tt class="docutils literal">mem[R[t]] &lt;- R[d]</tt></td>
+<td><tt class="docutils literal">sti rd, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- R[s] + R[t]</td>
-<td>add rd, rs, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- R[s] + R[t]</tt></td>
+<td><tt class="docutils literal">add rd, rs, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- R[s] - R[t]</td>
-<td>sub rd, rs, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- R[s] - R[t]</tt></td>
+<td><tt class="docutils literal">sub rd, rs, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- R[s] &amp; R[t]</td>
-<td>and rd, rs, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- R[s] &amp; R[t]</tt></td>
+<td><tt class="docutils literal">and rd, rs, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- R[s] ^ R[t]</td>
-<td>xor rd, rs, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- R[s] ^ R[t]</tt></td>
+<td><tt class="docutils literal">xor rd, rs, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- R[s] &lt;&lt; R[t]</td>
-<td>shl rd, rs, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- R[s] &lt;&lt; R[t]</tt></td>
+<td><tt class="docutils literal">shl rd, rs, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- R[s] &gt;&gt; R[t]</td>
-<td>shr rd, rs, rt</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- R[s] &gt;&gt; R[t]</tt></td>
+<td><tt class="docutils literal">shr rd, rs, rt</tt></td>
 </tr>
-<tr><td>R[d] &lt;- pc; pc &lt;- imm8</td>
-<td>jal rd, imm8</td>
+<tr><td><tt class="docutils literal">R[d] &lt;- pc; pc &lt;- imm8</tt></td>
+<td><tt class="docutils literal">jal rd, imm8</tt></td>
 </tr>
-<tr><td>pc &lt;- R[d]</td>
-<td>jr rd</td>
+<tr><td><tt class="docutils literal">pc &lt;- R[d]</tt></td>
+<td><tt class="docutils literal">jr rd</tt></td>
 </tr>
-<tr><td>if (R[d] == 0) pc &lt;- imm8</td>
-<td>jz rd, imm8</td>
+<tr><td><tt class="docutils literal">if (R[d] == 0) pc &lt;- imm8</tt></td>
+<td><tt class="docutils literal">jz rd, imm8</tt></td>
 </tr>
-<tr><td>if (R[d] &gt; 0) pc &lt;- imm8</td>
-<td>jp rd, imm8</td>
+<tr><td><tt class="docutils literal">if (R[d] &gt; 0) pc &lt;- imm8</tt></td>
+<td><tt class="docutils literal">jp rd, imm8</tt></td>
 </tr>
-<tr><td>pc &lt;- pc</td>
-<td>halt</td>
+<tr><td><tt class="docutils literal">pc &lt;- pc</tt></td>
+<td><tt class="docutils literal">halt</tt></td>
 </tr>
 </tbody>
 </table>
