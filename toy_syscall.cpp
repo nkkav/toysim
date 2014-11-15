@@ -1,6 +1,6 @@
 /***************************************************************/
 /*  File       : toy_syscall.cpp
- *  Description: OS call emulation support for DLX.
+ *  Description: OS call emulation support for TOY.
  *  Author     : Nikolaos Kavvadias <nikos@nkavvadias.com>
  *
  *  Copyright (C) 2010, 2011, 2012, 2013, 2014 Nikolaos Kavvadias

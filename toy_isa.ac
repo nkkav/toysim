@@ -27,7 +27,7 @@ AC_ISA(toy) {
   ac_instr<Type_R> loadi, storei, add, sub, instr_and, instr_xor, shl, shr, instr_halt, jreg;
   ac_instr<Type_I> lda, load, store, jzer, jpos, jal;
 
-// gas MIPS specific register names
+// gas TOY-specific register names.
   ac_asm_map reg {
      "x"[0..15] = [0..15];
      "r"[0..15] = [0..15];

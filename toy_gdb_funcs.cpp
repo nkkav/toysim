@@ -23,7 +23,7 @@
 #include "toy.H"
 
 // 'using namespace' statement to allow access to all
-// mips1-specific datatypes
+// toy-specific datatypes.
 using namespace toy_parms;
 
 int toy::nRegs(void) {
@@ -55,16 +55,10 @@ void toy::reg_write( int reg, ac_word value ) {
     }
 }
 
-//unsigned char mips1::mem_read( unsigned int address ) {
-//  return IM->read_byte( address );
-//}
 unsigned short int toy::mem_read( unsigned int address ) {
   return IM->read( address );
 }
 
-//void mips1::mem_write( unsigned int address, unsigned char byte ) {
-//  IM->write_byte( address, byte );
-//}
 void toy::mem_write( unsigned int address, unsigned short int word ) {
   IM->write( address, word );
 }
