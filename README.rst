@@ -2,6 +2,10 @@
  toysim user manual
 ====================
 
+.. image:: toysim.png
+   :scale: 25 %
+   :align: center
+
 +-------------------+----------------------------------------------------------+
 | **Title**         | toysim (ArchC functional simulator for the Princeton TOY |
 |                   | machine)                                                 |
