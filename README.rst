@@ -74,18 +74,6 @@ The ``toysim`` distribution includes the following files:
 +-----------------------+------------------------------------------------------+
 | defines_gdb           | Macro definitions for GDB integration.               |
 +-----------------------+------------------------------------------------------+
-| toy.ac                | Register, memory and cache model for TOY.            |
-+-----------------------+------------------------------------------------------+
-| toy_gdb_funcs.cpp     | GDB support for the TOY simulator.                   |
-+-----------------------+------------------------------------------------------+
-| toy_isa.ac            | Instruction encodings and assembly formats.          |
-+-----------------------+------------------------------------------------------+
-| toy_syscall.cpp       | OS call emulation support for TOY (untested).        |
-+-----------------------+------------------------------------------------------+
-| toy_isa.cpp           | Instruction behaviors.                               |
-+-----------------------+------------------------------------------------------+
-| toysim.png            | PNG image for the ``toysim`` project logo.           |
-+-----------------------+------------------------------------------------------+
 | modifiers             | Instruction encoding and decoding modifiers.         |
 +-----------------------+------------------------------------------------------+
 | rst2docs.sh           | Bash script for generating the HTML and PDF versions |
@@ -93,6 +81,18 @@ The ``toysim`` distribution includes the following files:
 +-----------------------+------------------------------------------------------+
 | run_tools.sh          | Script for automating the build of the simulator and |
 |                       | the associated binary utilities (``binutils``) port. |
++-----------------------+------------------------------------------------------+
+| toy.ac                | Register, memory and cache model for TOY.            |
++-----------------------+------------------------------------------------------+
+| toy_gdb_funcs.cpp     | GDB support for the TOY simulator.                   |
++-----------------------+------------------------------------------------------+
+| toy_isa.ac            | Instruction encodings and assembly formats.          |
++-----------------------+------------------------------------------------------+
+| toy_isa.cpp           | Instruction behaviors.                               |
++-----------------------+------------------------------------------------------+
+| toy_syscall.cpp       | OS call emulation support for TOY (untested).        |
++-----------------------+------------------------------------------------------+
+| toysim.png            | PNG image for the ``toysim`` project logo.           |
 +-----------------------+------------------------------------------------------+
 | /tests                | Tests subdirectory                                   |
 +-----------------------+------------------------------------------------------+
