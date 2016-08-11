@@ -1,21 +1,10 @@
 /***************************************************************/
 /*  File       : toy_syscall.cpp
  *  Description: OS call emulation support for TOY.
- *  Author     : Nikolaos Kavvadias <nikos@nkavvadias.com>
+ *  Author     : Nikolaos Kavvadias <nikolaos.kavvadias@gmail.com>
  *
- *  Copyright (C) 2010, 2011, 2012, 2013, 2014 Nikolaos Kavvadias
- *
- *  Author affiliation:
- *    Dr. Nikolaos Kavvadias
- *    Independent Consultant -- Research Scientist
- *    Kornarou 12 Rd., Nea Ampliani,
- *    35100 Lamia, Greece
- *                                                             
- *  Contact information for the ArchC team:                     
- *    The ArchC Team                                              
- *    Computer Systems Laboratory (LSC)                           
- *    IC-UNICAMP                                                  
- *    http://www.lsc.ic.unicamp.br                                
+ *  Copyright (C) 2010, 2011, 2012, 2013, 2014, 2015, 2016
+ *                Nikolaos Kavvadias
  */
 /***************************************************************/
 

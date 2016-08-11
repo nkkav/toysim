@@ -10,17 +10,22 @@
 | **Title**         | toysim (ArchC functional simulator for the Princeton TOY |
 |                   | machine)                                                 |
 +-------------------+----------------------------------------------------------+
-| **Author**        | Nikolaos Kavvadias 2010, 2011, 2012, 2013, 2014          |
+| **Author**        | Nikolaos Kavvadias 2010, 2011, 2012, 2013, 2014, 2015,   |
+|                   | 2016                                                     |
 +-------------------+----------------------------------------------------------+
 | **Contact**       | nikos@nkavvadias.com                                     |
 +-------------------+----------------------------------------------------------+
 | **Website**       | http://www.nkavvadias.com                                |
 +-------------------+----------------------------------------------------------+
-| **Release Date**  | 02 December 2014                                         |
+| **Release Date**  | 11 August 2016                                           |
 +-------------------+----------------------------------------------------------+
-| **Version**       | 0.0.4                                                    |
+| **Version**       | 0.0.5                                                    |
 +-------------------+----------------------------------------------------------+
 | **Rev. history**  |                                                          |
++-------------------+----------------------------------------------------------+
+|        **v0.0.5** | 2016-08-11                                               |
+|                   |                                                          |
+|                   | Update for 2016.                                         |
 +-------------------+----------------------------------------------------------+
 |        **v0.0.4** | 2014-12-02                                               |
 |                   |                                                          |
@@ -226,15 +231,3 @@ Supported pseudo-instructions include:
 - ArchC installation (tested on Cygwin/Win7-64bit and Linux)
 - Standard UNIX-based tools: ``make``, ``gcc``.
 
-
-6. Contact
-==========
-
-You may contact me at:
-
-|  Nikolaos Kavvadias <nikos@nkavvadias.com>
-|  Independent Consultant
-|  http://www.nkavvadias.com
-|  Kornarou 12 Rd,
-|  35100 Lamia, Fthiotis
-|  Greece
